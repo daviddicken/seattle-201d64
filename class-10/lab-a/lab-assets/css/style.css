@@ -1,0 +1,37 @@
+*{
+  margin: 0
+ }
+
+html{
+  background-color: white;
+}
+
+#wrapperDiv{
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: solid black 1px;
+  border-top: none;
+  border-bottom: none;
+}
+
+
+header{
+  height: 10vh;
+  border: solid black 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+main{
+  height: 80vh;
+}
+
+footer{
+  height: 10vh;
+  border: solid black 1px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
