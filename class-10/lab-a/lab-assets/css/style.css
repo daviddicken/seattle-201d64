@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yellowtail&display=swap');*{
+  margin: 0
+ }
+ html
+ {
+  background-color: white;
+}
+#wrapperDiv{
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+header{
+  height: 18vh;
+  margin-top: 15px;
+  position: relative;
+}
+#logoHolder{
+  margin-top: 8px;
+  height: 42px;
+  width: 45px;
+  background-color: #333333;
+  float: left;
+  background: url(../img/logo.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logoTextHolder{
+  font-family: 'Yellowtail', cursive;
+  font-size: xx-large;
+  font-weight: 550;
+  margin-top: 4px;
+  margin-left: 2px;
+  height: 50px;
+  width: 225px;
+  float: left;
+}
+#subText{
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-left: 2px;
+  height: 50px;
+  width: 225px;
+  float: left;
+  margin-top: -8px;
+}.socialMedia{
+  height: 24px;
+  width: 24px;
+  background-color: #333333;
+  float: right;
+  margin-left: 2px;
+  margin-top: 10px;
+}#spaceMedia{
+  margin-right: 8px;
+  background-color:#333333;
+  background: url(../img/pint-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#feed{
+  background-color: #333333;
+  background: url(../img/rss-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#flik{
+  background-color: #333333;
+  background: url(../img/flic-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#im{
+  background-color: #333333;
+  background: url(../img/insta-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#gt{
+  background-color: #333333;
+  background: url(../img/gp-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#tw{
+  background-color: #333333;
+  background: url(../img/twit-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#fb{
+  background-color: #333333;
+  background: url(../img/fb-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#mail{
+  background-color: #333333;
+  background: url(../img/mail-icon.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}#bottomBorder{
+  width: 100%;
+  height: 15px;
+  margin-top: 80px;
+  position: absolute;
+  background-image: url("../img/hr-img.png");
+  background-repeat: repeat repeat;
+}
+/* begining of main styles */
+main{
+}
+#mainLayer1{
+height: 20vh;
+width: 100%;
+position: relative;
+}
+#layer1Text{
+position: absolute;
+left: 0;
+bottom: 0;
+}
+#printerDiv{
+  width: 10px;
+  height: 13px;
+  position: absolute;
+  background-image: url(../img/print-icon.png)no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  right: 0;
+  bottom: 0;
+}
+#mainLayer2{
+  background-color: rgb(255, 0, 221);
+  height: 600px;
+  width: 100%;
+  background: url(../img/choco-pizza.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+#mainLayer3{
+  height: 20vh;
+  width: 100%;
+}
+.layered{
+  color: #805e58;
+  font-family: 'Roboto', sans-serif;
+line-height: 15px;
+}
+#mainLayer4{
+  padding-top: 10px;
+  background-color: rgb(68, 0, 255);
+  height: 20vh;
+  width: 100%;
+  background: url(../img/list-bg.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ margin-bottom: 50px;
+  position: relative;
+}
+.list{
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+#bottomBorder2
+{
+  width: 100%;
+  height: 15px;
+bottom: -60px;
+  position: absolute;
+  background-image: url("../img/hr-img.png");
+  background-repeat: repeat repeat;
+}
+footer{
+}
+#footerDiv1{
+  height: 10vh;
+}
+#footerDiv2{
+  height: 10vh;
+}
+#nessa{
+ height: 71px;
+  width: 68px;
+  float: left;
+  background: url(../img/van-pic.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 30px;
+}
